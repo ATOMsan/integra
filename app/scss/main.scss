@@ -525,7 +525,6 @@ body {
 		align-items: flex-start;
 		padding: 10px 15px;
 		width: 470px;
-		margin-bottom: 15px;
 	}
 	.phone__text{
 		color: #ffffff;
@@ -643,14 +642,10 @@ body {
 	}
 	.perform__descr{
 		width: 32%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 	}
 	.site__title{
 		font-size: 30px;
 		line-height: 40px;
-		width: 100%;
 	}
 	.perform__text{
 		display: block;
@@ -660,7 +655,6 @@ body {
 		text-transform: uppercase;
 		padding-left: 32px;
 		margin-bottom: 110px;
-		width: 100%;
 	}
 	.perform__blocks{
 		width: 65%;
@@ -949,8 +943,6 @@ body {
 				transform: translate(-50%, -50%);
 			}
 			.icon{
-                background-image: url(../img/nutanix/block91.png);
-			    background-repeat: no-repeat;
 				&:after{
 					right: -130%;
 				}
@@ -958,11 +950,9 @@ body {
 		}
 		&:nth-child(3){
 			.icon{
-				background-image: url(../img/nutanix/block92.png);
+				background-image: url(../img/block92.png);
 				background-repeat: no-repeat;
-                &:after{
-                    display: none;
-                }
+				background-position: right top;
 				.num{
 					top: 15px;
 					right: -5px;
@@ -971,8 +961,9 @@ body {
 		}
 		&:nth-child(4){
 			.icon{
-				background-image: url(../img/nutanix/block93.png);
+				background-image: url(../img/block93.png);
 				background-repeat: no-repeat;
+				background-position: 105% top;
 				.num{
 					top: 50%;
 					transform: translateY(-50%);
@@ -986,8 +977,9 @@ body {
 		}
 		&:nth-child(5){
 			.icon{
-				background-image: url(../img/nutanix/block94.png);
+				background-image: url(../img/block94.png);
 				background-repeat: no-repeat;
+				background-position: 105% top;
 				.num{
 					right: -5px;
 					bottom: 15px;
@@ -1000,8 +992,9 @@ body {
 		}
 		&:nth-child(6){
 			.icon{
-				background-image: url(../img/nutanix/block95.png);
+				background-image: url(../img/block95.png);
 				background-repeat: no-repeat;
+				background-position: 102% top;
 				.num{
 					right: 24%;
 					bottom: -11px;
@@ -1022,9 +1015,8 @@ body {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-        margin-bottom: 30px;
-        background-position: center center;
-        background-size: cover;
+		border: 1px solid #7f888f;
+		margin-bottom: 30px;
 		&:after{
 			content: '';
 			position: absolute;
